@@ -9,10 +9,10 @@ var mce5 = localStorage.getItem("mc5");
 var mce6 = localStorage.getItem("mc6");
 a.innerHTML = localStorage.getItem("score");
 a.innerHTML = parseInt(a.innerHTML);
-if (a.innerHTML == undefined){
+if (a.innerHTML == undefined || a.innerHTML == "NaN"){
 	a.innerHTML = 0;
 }
-if (scorepoint == 0){
+if (scorepoint == 0 || isNaN(scorepoint)){
 	scorepoint = 1;
 }
 if (mce1 == "d"){
