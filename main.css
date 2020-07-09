@@ -1,0 +1,39 @@
+.content{
+	margin-top:7%;
+}
+
+.moneyinfo{
+	font-family: candara;
+	font-size:250%;
+	font-weight:bold;
+}
+
+.mainbutton{
+	padding: 1.5%;
+	font-size: 150%;
+	border-radius: 5%;
+	border:3px solid black;
+	background-color: white;
+	font-family: segoe script;
+}
+
+.buybutton{
+	padding:1%;
+	background-color: white;
+	color:black;
+	border:3px solid black;
+	border-radius: 5%;
+}
+.buybutton:hover{
+	color:white;
+	background-color: black;
+	padding:1.2%;
+}
+
+.clearbutton{
+	background-color: lightgray;
+	color:white;
+	padding:0.5%;
+	border:none;
+	border-radius: 3%;
+}
